@@ -1,0 +1,9 @@
+<li class="user">
+  <div class="user-names">
+    <p class="name">{{ user.name }}</p>
+    <small class="username">{{ "@" + user.username }}</small>
+  </div>
+  <a class="email" [href]="'mailto:' + user.email">
+    {{ user.email }}
+  </a>
+</li>

@@ -1,0 +1,16 @@
+.users {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  ul.users {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0 20%;
+    box-sizing: border-box;
+  }
+}
